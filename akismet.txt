@@ -1,0 +1,245 @@
+akismet
+
+
+------------------------------------------ SPAM DETECTION ---------------------------------------------
+
+NLP Problem----
+Data Collection
+Data Cleaning & Pre Processing
+	-> pre-processing
+	-> tokenizing
+	-> feature selection
+
+Model selection {naive bayes, bi-LSTM, BERT, SVM}
+Training
+Validation
+
+
+APIS
+https://www.nltk.org/
+
+
+NLP Pipelines
+
+https://towardsdatascience.com/my-first-nlp-pipeline-99d24aafb773
+https://www.kdnuggets.com/2021/03/natural-language-processing-pipelines-explained.html
+https://appliedmachinelearning.blog/2017/01/23/email-spam-filter-python-scikit-learn/
+https://www.javatpoint.com/nlp
+https://www.analyticsvidhya.com/blog/2021/09/performing-email-spam-detection-using-bert-in-python/
+
+vectorization techniques
+
+https://neptune.ai/blog/vectorization-techniques-in-nlp-guide
+https://www.machinelearningplus.com/nlp/lemmatization-examples-python/
+
+
+
+Research Papers 
+
+https://www.sciencedirect.com/science/article/pii/S2405844018353404
+
+
+Kaggle Notebooks/Datasets
+
+https://www.kaggle.com/code/syamkakarla/spam-mail-classifier
+https://www.kaggle.com/code/databeru/spam-classifier-model-comparison-accuracy-97
+https://github.com/mhmdsab/Spam-Classifier/blob/master/spam%20classifier.py
+
+
+Saving & loading models
+
+https://medium.com/analytics-vidhya/save-and-load-your-scikit-learn-models-in-a-minute-21c91a961e9b 
+https://towardsdatascience.com/spam-detection-in-emails-de0398ea3b48
+https://www.analyticsvidhya.com/blog/2021/06/automated-spam-e-mail-detection-modelusing-common-nlp-tasks/
+https://www.kaggle.com/code/muhamedhekal/spam-detection-using-naive-bayes
+
+
+
+Plan of Action:
+
+Data Collection
+Data Cleaning & Pre Processing
+	-> pre-processing
+	-> tokenizing
+	-> feature selection
+	-> vectorization technique selection
+
+Model selection {naive bayes, bi-LSTM, BERT, SVM}
+Training
+Validation
+
+
+https://github.com/MubarizKhan/Natural-Language-Processing
+https://colab.research.google.com/drive/1ysEKrw_LE2jMndo1snrZUh5w87LQsCxk
+
+https://www.youtube.com/watch?v=YncZ0WwxyzU&list=WL&index=437&t=97s
+https://www.youtube.com/watch?v=fKlQ0GixNtI
+	
+
+---------------------------------------- Dialogflow --------------------------------------------
+
+a conversational AI platform for building virtual agents eg chatbots, voice bits contact centres 
+used for complex conversations, many turns in a conversations rg keeping track of contacts 
+
+googel assistant bots: one intent match 
+
+https://cloud.google.com/dialogflow#section-4
+
+https://cloud.google.com/dialogflow/docs/editions#agent-types
+
+https://cloud.google.com/dialogflow/cx/docs/quick/build-agent
+
+https://cloud.google.com/dialogflow/es/docs/how/sentiment
+
+
+use dialogflow and phone gateway to simulate call 
+then take conversation to detect interest using bert? 
+
+owner of business
+good time to talk
+	best time?
+		continue->
+				we are calling from flah company, flah services
+						we are willing to offer you these services
+
+		else:
+			do not call list
+
+https://www.leeboonstra.dev/chatbots/building-your-own-voice-ai-1/
+
+https://www.coursera.org/learn/ccai-virtual-agent-development-in-dialogflow-cx-for-citizen-developers/lecture/bnKX1/course-introduction
+
+https://www.aitimejournal.com/@admond.lee/how-to-build-a-speech-recognition-bot-with-python
+
+
+https://cloud.google.com/dialogflow/cx/docs/concept/agent-multilingual
+
+
+voximplant
+
+https://voximplant.com/solutions/dialogflow-connector
+https://voximplant.com/docs/guides/integrations/dialogflowcx
+
+
+
+
+contact center au google cloud
+dialogflow cx
+dialogflow es
+google duplex
+
+Intents
+-> ability to create training phrases
+label parameters
+have some sort of responses
+
+
+
+Entities
+	variables, parameters
+
+Fullfillments
+how does dialogflow/va responds to whatever query that is coming in
+-> an endpoint, 
+hooking api key etc
+
+preloaded agents available.
+
+https://just-ai.com/en/voice-bots
+
+
+-------------------------------------------------------------------------------------------
+
+NLP Data Science
+
+https://www.google.com/search?channel=fs&client=ubuntu&q=ibm+watson+text+to+speech+
+
+https://www.ibm.com/watson/assets/duo/pdf/watson-assistant-for-agent-assist.pdf
+
+https://cloud.google.com/agent-assist/docs
+
+https://cloud.google.com/agent-assist
+
+https://www.ibm.com/demos/live/tts-demo/self-service/home
+
+https://play.ht/text-to-speech-voices/ibm-watson/
+
+
+https://www.google.com/search?channel=fs&client=ubuntu&q=ibm+watson+text+to+speech+
+------------------------------------------------------------------------------------------------
+
+
+[ArtistOverview-> Initial Prompt Fullfillment]  we only got 4 bands signed, so yeah, rest of em, aint available
+
+[ArtistOverview-> Initial Prompt Fullfillment]  didn't catch the name of thy artist
+
+[ArtistOverview-> Initial Prompt Fullfillment] From which of the artists would you like to order?
+
+
+
+https://cloud.google.com/agent-assist/docs
+
+https://cloud.google.com/agent-assist/docs/how-to
+
+https://cloud.google.com/agent-assist/docs/sentiment-analysis
+
+
+------------------------------------------------------------------------------------------------------------
+
+owner of business
+good time to talk
+	best time?
+		continue->
+				we are calling from flah company, flah services
+						we are willing to offer you these services
+
+		else:
+			do not call list
+
+
+
+start
+
+	are you this person?
+
+
+-------------------------------------------------------------
+
+hi
+artists
+gnr
+
+
+
+Sales Pitch
+
+https://blog.hubspot.com/sales/sales-pitch-examples
+
+https://www.saleshacker.com/sales-pitch-examples/
+
+----------------
+
+https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler#4
+
+--------------------------------------------------
+
+
+indexes
+	{
+		pros,cons
+		reason for creation
+	}
+sub queries
+triggers
+joins
+normalization
+aggregate function{ having, group by, min, max, between}
+wild cards
+
+usecases
+	-> students, cities,
+		each student has city mentioned 
+		retrieve cities which has the max students sorted{group by city, count}
+		
+
+
